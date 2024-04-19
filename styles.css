@@ -34,6 +34,10 @@ body {
  
   main {
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   
@@ -41,4 +45,19 @@ body {
     background-color: #333;
     color: #fff;
     padding: 200px;
-    text-align: center;
+    text-align: center; }
+    
+    
+
+.AndresJeans{
+  width: 80px;
+  height: 80px;
+}
+
+.gif{
+  width: 600px;
+  height: 250px;
+  margin: 0px;
+  padding: 100px;
+}
+
