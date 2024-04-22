@@ -136,18 +136,11 @@ footer {
 }
 
 .headercarrito {
-width: 100px;
-}
-
-<<<<<<< HEAD
-.formulario{
-  width: 500px;
-position:absolute;
-top: 35%;
-left:35%;
-transform: translate*(-35%, -35%);
-background-color: #fff;
-border: 4px solid black;
+  background-color: black;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .formulario h1 {
@@ -160,8 +153,8 @@ padding: 20px
 
 form .username {
   position:relative
-  margin:30px 0;
-  border:1px solid white;
+  margin 30px 0;
+  border: 1px solid white;
 }
 
 input[type="submit"]{
@@ -225,11 +218,7 @@ background-color: blue;
 
 }
 
-=======
-body {
-  background: rgb(230, 230, 230) no-repeat fixed center;
+.atrascarrito {
+  width: 10000px;
+  border: 4px solid black
 }
-.product {
-  background: rgb(230, 230, 230) no-repeat fixed center;
-}
->>>>>>> 4fb732d185f13db52376afcf48417a6947c9f2df
