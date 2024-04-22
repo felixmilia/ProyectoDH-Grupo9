@@ -139,6 +139,7 @@ footer {
 width: 100px;
 }
 
+<<<<<<< HEAD
 .formulario{
   width: 500px;
 position:absolute;
@@ -224,3 +225,11 @@ background-color: blue;
 
 }
 
+=======
+body {
+  background: rgb(230, 230, 230) no-repeat fixed center;
+}
+.product {
+  background: rgb(230, 230, 230) no-repeat fixed center;
+}
+>>>>>>> 4fb732d185f13db52376afcf48417a6947c9f2df
