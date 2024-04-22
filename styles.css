@@ -61,3 +61,10 @@ body {
   padding: 100px;
 }
 
+/* Media Queries para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+  nav ul li {
+      display: block;
+      margin: 10px 0;
+  }
+}
