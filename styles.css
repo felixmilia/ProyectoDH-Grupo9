@@ -138,3 +138,10 @@ footer {
 .headercarrito {
 width: 100px;
 }
+
+body {
+  background: rgb(230, 230, 230) no-repeat fixed center;
+}
+.product {
+  background: rgb(230, 230, 230) no-repeat fixed center;
+}
