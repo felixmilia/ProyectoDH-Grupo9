@@ -18,16 +18,16 @@ body {
     font-weight: bold;
   }
   
-  nav ul {
+  div ul {
     list-style-type: none;
   }
   
-  nav ul li {
+  div ul li {
     display: inline;
-    margin-right: 50px;
+    margin-right: 5px;
   }
   
-  nav ul li a {
+  div ul li a {
     color: #fff;
     text-decoration: none;
   }
@@ -71,14 +71,14 @@ body {
   font-weight: bold;
 }
 
-nav ul {
+div ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
 }
 
-nav ul li {
+div ul li {
   margin-right: 20px;
 }
 
@@ -236,6 +236,7 @@ background-color: blue;
 
 .atrascarrito {
   width: 10000px;
+<<<<<<< HEAD
   border: 4px solid black
 }
 
@@ -244,4 +245,6 @@ background-color: blue;
   body {
       font-size: 24px;
   }
+=======
+>>>>>>> 7c99a480eef6e33c47c19301529a8b22fb37293d
 }
