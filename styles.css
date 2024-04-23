@@ -1,4 +1,3 @@
-/*arranca home*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -236,15 +235,4 @@ background-color: blue;
 
 .atrascarrito {
   width: 10000px;
-<<<<<<< HEAD
-  border: 4px solid black
-}
-
-@media only screen and (max-width: 720px) {
-  /* Estilos para pantallas pequeñas */
-  body {
-      font-size: 24px;
-  }
-=======
->>>>>>> 7c99a480eef6e33c47c19301529a8b22fb37293d
 }
