@@ -61,10 +61,171 @@ body {
   padding: 100px;
 }
 
-/* Media Queries para dispositivos móviles */
-@media only screen and (max-width: 768px) {
-  nav ul li {
-      display: block;
-      margin: 10px 0;
+.product  {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.product {
+  background-color: #f8f8f8;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+ /* .remeras1 {
+  width: 100px;
+  height: 100px;
+  border: 4px solid red;
+
+} */
+
+.ropa_hombre {
+  border: 4px solid black;
+  margin: 20px;
+  padding: 20px;
+  width: 130px;
+}
+
+.ropa_hombre img {
+  width: 100%;
+}
+
+.seccion_productos {
+  border: 4px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.headercarrito {
+  background-color: #333;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formulario h1 {
+text-align: center;
+}
+
+.formulario form{
+padding: 20px
+}
+
+form .username {
+  position:relative
+  margin 30px 0;
+  border: 1px solid white;
+}
+
+input[type="submit"]{
+background-color: green;
+width: 100px;
+height: 25px;
+color: white;
+
+}
+
+.formularioregis {
+  position:absolute;
+  top: 35%;
+  left:35%;
+  transform: translate*(-35%, -35%);
+  width: 400px;
+  background-color:#fff;
+  padding: 20px;
+  margin: auto;
+  border:4px solid#333
+}
+.opciones {
+
+width: 100%;
+padding: 5px;
+margin-bottom: 5px;
+
+
+}
+
+
+.formularioregis .boton{
+width: 100px;
+background-color: green;
+padding: 10px;
+margin:none;
+height:30px;
+
+}
+.contra{
+  position:absolute;
+  top: 35%;
+  left:35%;
+  transform: translate*(-35%, -35%);
+  width: 400px;
+  background-color:#fff;
+  padding: 20px;
+  margin: auto;
+  border:4px solid#333
+}
+
+
+.email{
+  padding: 10px;
+width: 100px ;
+
+}
+
+.recu{
+background-color: blue;
+
+}
+
+.atrascarrito {
+  width: 10000px;
+  border: 4px solid black
+}
+
+@media only screen and (max-width: 600px) {
+  /* Estilos para pantallas pequeñas */
+  body {
+      font-size: 14px;
   }
 }

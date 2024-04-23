@@ -1,23 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <section class="headercarrito">
     <meta charset="UTF-8">
-    <title>Carrito Andres Jeans</title>
-    <link rel="stylesheet" href="./styles.css">
-    <div class="headercarrito">
-      <img class="AndresJeans" src="./img/Andres Jeans/LOGO.png" alt="Logo" > 
-    </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
+
+<header>
+    <h1>Carrito de Compras</h1>
     
-</body>
+</header>
+
+<main>
+    <section id="products">
+       
+        <div class="product">
+            <h2>Producto 1</h2>
+          
+        </div>
+        <main class="remeras1">
+          <section class="seccion_productos">
+            <article class="ropa_hombre">
+              <p>Auriculares Bluethooth</p>
+              <p>Precio: $100000  </p>
+              <img src="./img/Andres Jeans/AURICULARES BLUETHOOTH.png" alt="remeras1">
+              <p>Auriculares</p>
+            </article>
+            <article class="ropa_hombre">
+              <p>Computadora</p>
+              <p>Precio: $450000  </p>
+              <img src="./img/Andres Jeans/COMPUTADORA.png" alt="remeras1">
+              <p>Computadora</p> </article>
+              <article class="ropa_hombre">
+                <p>Remera Oversize Violeta</p>
+                <p>Precio: $10000  </p>
+                <img src="./img/Andres Jeans/REMERA OVERSIZE HOMBRE(2).png" alt="remeras1">
+                <p>Remera</p>
+                <nav>
+                  <ul>
+                 
+              
+            
+                 
+        
+    </section>
+
+    <section id="cart">
+        <h2>Carrito</h2>
+        <ul id="cart-items">
+         
+        </ul>
+        <p>Total: <span id="cart-total">$560.000</span></p>
+        <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 ANDRES. Tu tienda de confianza.</p>
+</footer>
+
+
+
 <nav>
-    <ul>
-      <section class="atrascarrito">
-      <li><a href="index.html"><button>Atras</button></a></li>
-      
-    </ul>
-  </section>
-  </nav>
+  <ul>
+      <li class="atrascarrito"><a href="index.html"><button>Atrás</button></a></li>
+  </ul>
+</nav>
+</body>
 </html>
