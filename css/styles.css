@@ -116,11 +116,6 @@ footer {
 
 }
 
-
-
-
-
-
   .ropa_hombre {
   border: 4px solid black;
   margin: 20px;
@@ -133,7 +128,7 @@ footer {
 }
 
 .seccion_productos {
-  border: 4px solid black;
+  border: 3px solid black;
   display: flex;
   flex-wrap: wrap;
 }
