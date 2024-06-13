@@ -16,6 +16,13 @@ body {
     align-items: center;
   }
   
+  .andresElegance {
+    width: 100%;
+    flex: content;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
   .logo {
     font-size: 40px;
     font-weight: bold;
@@ -46,12 +53,6 @@ body {
   height: 80px;
 }
 
-.gif{
-  width: 600px;
-  height: 250px;
-  margin: 0px;
-  padding: 100px;
-}
 
 .product  {
   font-family: Arial, sans-serif;
@@ -117,11 +118,12 @@ footer {
 }
 
   .ropa_hombre {
-  border: 3px solid black;
-  margin: 20px;
-  padding: 20px;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 15px;
   width: 110px;
   background-color: bisque;
+  justify-content: space-around;
 }
 
 .ropa_hombre img {
@@ -241,4 +243,17 @@ background-color: blue;
 
 .atrascarrito {
   width: 10000px;
+}
+
+.detalle {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detalleImg {
+  width: 14%;
+  display: flex;
+  flex-direction: column;
 }
