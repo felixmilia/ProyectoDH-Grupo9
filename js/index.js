@@ -18,7 +18,6 @@ fetch('https://fakestoreapi.com/products/category/men\'s clothing')
                 <p>${prod.description}</p>
                 <p>${prod.rating.rate}</p>
                   <ul>
-                    <li><a href="carrito.html"><button>Agregar al Carrito</button></a></li>
                     <li><a href="detalle.html?id=${prod.id}"><button>Ver mas</button></a></li>
                   </ul>
               </article>`
@@ -42,7 +41,6 @@ fetch('https://fakestoreapi.com/products/category/men\'s clothing')
                 <p>${prod.description}</p>
                 <p>${prod.rating.rate}</p>
                   <ul>
-                    <li><a href="carrito.html"><button>Agregar al Carrito</button></a></li>
                     <li><a href="detalle.html?id=${prod.id}"><button>Ver mas</button></a></li>
                   </ul>
               </article>`
@@ -66,7 +64,6 @@ fetch('https://fakestoreapi.com/products/category/men\'s clothing')
                 <p>${prod.description}</p>
                 <p>${prod.rating.rate}</p>
                   <ul>
-                    <li><a href="carrito.html"><button>Agregar al Carrito</button></a></li>
                     <li><a href="detalle.html?id=${prod.id}"><button>Ver mas</button></a></li>
                   </ul>
               </article>`
