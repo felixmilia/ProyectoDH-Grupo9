@@ -1,27 +1,77 @@
-fetch("https://fakestoreapi.com/products")
+let producto= document.querySelectorAll(".articulos")
+console.log(producto);
 
-.then(function(res){
-    return res.json()
-})
+fetch('https://fakestoreapi.com/products/category/men\'s clothing')
+    .then (function(response){
+        return response.json()
+    })
 
-.then(function (data){
-console.log(data);
-let section = document.querySelector("section")
-let articulosRopa = ''
-
-for(let i = 0; i < data.results.length; i++) {
-
-articulosRopa = articulosRopa + `<article class="ropa_hombre">
-    <a href="./detalles.html?id=${data.results[i].id}">
-     <img src=${data.results[i].image}>
-     </a>
-        <p>${data.results[i].name}</p>
-        <p>${data.results[i].name}</p>
-        </article>`
+    .then (function(data){
+        console.log(data);
+        for (let i=0; i<data.length; i++){
+            let prod = data[i];
+            producto[0].innerHTML +=`
+            <article class="ropa_hombre">
+                <p>${prod.title}</p>
+                <p>$${prod.price}</p>
+                <img src=${prod.image}>
+                <p>${prod.description}</p>
+                <p>${prod.rating.rate}</p>
+                  <ul>
+                    <li><a href="carrito.html"><button>Agregar al Carrito</button></a></li>
+                    <li><a href="detalle.html?id=${prod.id}"><button>Ver mas</button></a></li>
+                  </ul>
+              </article>`
 }
-section.innerHTML = articulosRopa
+    })
 
-})
+    fetch('https://fakestoreapi.com/products/category/women\'s clothing')
+    .then (function(response){
+        return response.json()
+    })
+
+    .then (function(data){
+        console.log(data);
+        for (let i=0; i<data.length; i++){
+            let prod = data[i];
+            producto[1].innerHTML +=`
+            <article class="ropa_hombre">
+                <p>${prod.title}</p>
+                <p>$${prod.price}</p>
+                <img src=${prod.image}>
+                <p>${prod.description}</p>
+                <p>${prod.rating.rate}</p>
+                  <ul>
+                    <li><a href="carrito.html"><button>Agregar al Carrito</button></a></li>
+                    <li><a href="detalle.html?id=${prod.id}"><button>Ver mas</button></a></li>
+                  </ul>
+              </article>`
+}
+    })
+
+    fetch('https://fakestoreapi.com/products/category/electronics')
+    .then (function(response){
+        return response.json()
+    })
+
+    .then (function(data){
+        console.log(data);
+        for (let i=0; i<data.length; i++){
+            let prod = data[i];
+            producto[2].innerHTML +=`
+            <article class="ropa_hombre">
+                <p>${prod.title}</p>
+                <p>$${prod.price}</p>
+                <img src=${prod.image}>
+                <p>${prod.description}</p>
+                <p>${prod.rating.rate}</p>
+                  <ul>
+                    <li><a href="carrito.html"><button>Agregar al Carrito</button></a></li>
+                    <li><a href="detalle.html?id=${prod.id}"><button>Ver mas</button></a></li>
+                  </ul>
+              </article>`
+}
+    })
 
 .catch(function (err){
 console.log(err);

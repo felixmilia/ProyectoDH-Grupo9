@@ -130,7 +130,23 @@ footer {
   width: 100%;
 }
 
-.seccion_productos {
+.seccion_productos1 {
+  border: 3px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: space-evenly;
+}
+
+.seccion_productos2 {
+  border: 3px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: space-evenly;
+}
+
+.seccion_productos3 {
   border: 3px solid black;
   display: flex;
   flex-wrap: wrap;
