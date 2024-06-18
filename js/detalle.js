@@ -10,11 +10,18 @@ fetch(`https://fakestoreapi.com/products/${id}`)
             .then(data=>{
                 console.log(data)
                 contenido.innerHTML = `      <h1>${data.title}</h1>
-    <h2>${data.category}</h2>
-      <h3>$${data.price}</h3>
-      <img src=${data.image}>
+    <h2>Category: ${data.category}</h2>
+      <h3>Price: $${data.price}</h3>
+      <img class="imgDetalle" src=${data.image}>
+      <p>Rating: ${data.rating.rate}</p>
+      <p>Count: ${data.rating.count} users</p>
       <p>${data.description}</p>
         <ul>
           <li><a href="carrito.html"><button>Agregar al Carrito</button></a></li>
         </ul>`
             })
+
+            .catch(function (err){
+                console.log(err);
+                })
+                
