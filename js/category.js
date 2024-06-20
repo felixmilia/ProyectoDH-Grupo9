@@ -2,10 +2,13 @@ let queryString = location.search
 let queryStringObj = new URLSearchParams(queryString)
 let id = queryStringObj.get("id")
 console.log(id);
-let contenido = document.querySelector(".detalle")
+let producto = document.querySelector(".articulos")
+console.log(producto);
+let title = document.querySelector ("#title")
+title.innerHTML = `Mostrando los productos para la categoria: ${id}`
 
 
-fetch(`https://fakestoreapi.com/products/${id}`)
+fetch(`https://fakestoreapi.com/products/category/${id}`)
 .then (function(response){
     return response.json()
 })
@@ -13,7 +16,7 @@ fetch(`https://fakestoreapi.com/products/${id}`)
 .then (function(data){
     for (let i=0; i<data.length; i++){
         let prod = data[i];
-        producto[0].innerHTML +=`
+        producto.innerHTML +=`
         <article class="ropa_hombre">
             <p>${prod.title}</p>
             <p>$${prod.price}</p>
