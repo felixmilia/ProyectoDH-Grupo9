@@ -30,30 +30,35 @@
 <section class="elGrande">
     <div class="form">
       <h2 class="cuenta"> Crea una Cuenta </h2>
+<form action="login.html"> 
+  <div>
+    <label> Email: </label>
+    <input type="text" name="mail" value="" placeholder="Correo Electronico">
+    </div>
+    
+    <div>  
+      <label> Contraseña: </label>
+        <input type="password" name="pass" value="" placeholder="Contraseña">
+    </div>
+    
+    <div>
+    <label> Repetir Contraseña </label>
+    <input type="password" name="pass2" value="" placeholder="Repetir contraseña">
+    </div>
+    <div>
+      <label> Terminos y Condiciones </label>
+      <input type="checkbox" name="Tyc" value="Tyc">
+      </div>
+    <div>
+    <button type="submit"> Registrarme </button>
+    </div>
+    
+   
+</form>
+<div id="errores">
 
-<div>
-<label> Email: </label>
-<input type="email" name="mail" value="" placeholder="Correo Electronico">
 </div>
 
-<div>  
-  <label> Contraseña: </label>
-    <input type="password" name="pass" value="" placeholder="Contraseña">
-</div>
-
-<div>
-<label> Repetir Contraseña </label>
-<input type="password" name="pass" value="" placeholder="Repetir contraseña">
-</div>
-
-<div>
-<button type="submit"> Registrarme </button>
-</div>
-
-<div>
-<label> Terminos y Condiciones </label>
-<imput type="chekbox" name="Terminos y Condiciones" value="leyó los terminos y condiciones.">
-</div>
 
 <div>
   <a href="login.html"> Ya tengo una Cuenta. </a>
@@ -68,3 +73,6 @@
   <p>Bautista Cornejo</p>
   <p>Emilio Perasso</p>
 </footer>
+<script src="./js/register.js"></script>
+</body>
+</html>
