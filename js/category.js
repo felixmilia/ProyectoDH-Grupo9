@@ -5,7 +5,7 @@ console.log(id);
 let producto = document.querySelector(".articulos")
 console.log(producto);
 let title = document.querySelector ("#title")
-title.innerHTML = `Mostrando los productos para la categoria: ${id}`
+title.innerHTML = `Mostrando los productos para la categoria: "${id}"`
 
 
 fetch(`https://fakestoreapi.com/products/category/${id}`)
@@ -22,7 +22,7 @@ fetch(`https://fakestoreapi.com/products/category/${id}`)
             <p>$${prod.price}</p>
             <img src=${prod.image}>
             <p>${prod.description}</p>
-            <p>${prod.rating.rate}</p>
+            <p>Rating: ${prod.rating.rate}/5</p>
               <ul>
                 <li><a href="detalle.html?id=${prod.id}"><button>Ver mas</button></a></li>
               </ul>

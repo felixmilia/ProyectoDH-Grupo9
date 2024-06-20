@@ -13,11 +13,11 @@ fetch(`https://fakestoreapi.com/products/${id}`)
     <h2>Category: ${data.category}</h2>
       <h3>Price: $${data.price}</h3>
       <img class="imgDetalle" src=${data.image}>
-      <p>Rating: ${data.rating.rate}</p>
+      <p>Rating: ${data.rating.rate}/5</p>
       <p>Count: ${data.rating.count} users</p>
       <p>${data.description}</p>
         <ul>
-          <li><a href="carrito.html"><button>Agregar al Carrito</button></a></li>
+          <a href="carrito.html"><button>Agregar al Carrito</button></a>
         </ul>`
             })
 

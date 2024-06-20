@@ -16,7 +16,7 @@ fetch('https://fakestoreapi.com/products/category/men\'s clothing')
                 <p>$${prod.price}</p>
                 <img src=${prod.image}>
                 <p>${prod.description}</p>
-                <p>${prod.rating.rate}</p>
+                <p>Rating: ${prod.rating.rate}/5</p>
                   <ul>
                     <li><a href="detalle.html?id=${prod.id}"><button>Ver mas</button></a></li>
                   </ul>
@@ -39,7 +39,7 @@ fetch('https://fakestoreapi.com/products/category/men\'s clothing')
                 <p>$${prod.price}</p>
                 <img src=${prod.image}>
                 <p>${prod.description}</p>
-                <p>${prod.rating.rate}</p>
+                <p>Rating: ${prod.rating.rate}/5</p>
                   <ul>
                     <li><a href="detalle.html?id=${prod.id}"><button>Ver mas</button></a></li>
                   </ul>
@@ -62,7 +62,7 @@ fetch('https://fakestoreapi.com/products/category/men\'s clothing')
                 <p>$${prod.price}</p>
                 <img src=${prod.image}>
                 <p>${prod.description}</p>
-                <p>${prod.rating.rate}</p>
+                <p>Rating: ${prod.rating.rate}/5</p>
                   <ul>
                     <li><a href="detalle.html?id=${prod.id}"><button>Ver mas</button></a></li>
                   </ul>
