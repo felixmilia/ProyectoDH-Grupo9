@@ -108,9 +108,10 @@ footer {
 }
 
 .articulos {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 
@@ -119,12 +120,12 @@ footer {
 }
 
   .ropa_hombre {
-  border: 2px solid black;
-  margin: 10px;
-  padding: 15px;
-  width: 110px;
-  background-color: white;
-  justify-content: space-around;
+    border: 2px solid black;
+    margin: 1%;
+    padding: 1%;
+    width: 20%;
+    background-color: white;
+    justify-content: space-around;
 }
 
 .ropa_hombre img {
