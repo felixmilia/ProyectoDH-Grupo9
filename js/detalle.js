@@ -16,12 +16,22 @@ fetch(`https://fakestoreapi.com/products/${id}`)
       <p>Rating: ${data.rating.rate}/5</p>
       <p>Count: ${data.rating.count} users</p>
       <p>${data.description}</p>
-        <ul>
-          <a href="carrito.html"><button>Agregar al Carrito</button></a>
-        </ul>`
+        `
+        let button=document.querySelector("#botonCarrito")
+        
+        button.addEventListener("click",function(){
+          let listaid=[]
+        if(localStorage.getItem("productos")&&localStorage.getItem("productos")!=null){
+          listaid=JSON.parse(localStorage.getItem("productos"))
+        }
+         listaid.push(id) 
+         localStorage.setItem("productos",JSON.stringify(listaid))
+         console.log(localStorage)
+        })
             })
 
             .catch(function (err){
                 console.log(err);
                 })
+          
                 
