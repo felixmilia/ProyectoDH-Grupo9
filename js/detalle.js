@@ -15,7 +15,7 @@ fetch(`https://fakestoreapi.com/products/${id}`)
       <img class="imgDetalle" src=${data.image}>
       <p>Rating: ${data.rating.rate}/5</p>
       <p>Count: ${data.rating.count} users</p>
-      <p>${data.description}</p>
+      <p>Detalle: ${data.description}</p>
         `
         let button=document.querySelector("#botonCarrito")
         

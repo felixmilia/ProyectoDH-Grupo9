@@ -6,43 +6,50 @@
   <title> Log in - Andres </title>
   <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body> '
-  <header> <div class="img">
-    <img class="AndresJeans" src="./img/Andres Jeans/LOGO.png" alt="Logo" > 
-  </div></header>
+<body> 
+  <header> 
+      <img class="AndresJeans" src="./img/Andres Jeans/LOGO.png" alt="Logo" > 
+    
+  
+    
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="category.html?id=electronics">ELECTRONICA</a></li>
+        <li><a href="category.html?id=jewelery">ACCESORIOS</a></li>
+        <li><a href="category.html?id=men's clothing">HOMBRE</a></li>
+        <li><a href="category.html?id=women's clothing">MUJER</a></li>
+        <li><a href="carrito.html">CARRITO</a></li>
+        <li><a href="login.html">LOGIN</a></li>
+        <li><a href="register.html">REGISTRO</a></li>
+      </ul>
+    </nav>
+  </header>
    
-  <div class="formulario">
-<h1> Inicio de sesion </h1>
-<form>
-<div class="username">
-    <input type="text" required>
-        <label> Email </label>
-  </div>
+<main>
+  <section class="formulario">
+    <h1>Inicio de sesión</h1>
+    <form id="form">
+      <section class="username">
+        <label for="campoEmail">Email:</label>
+        <input type="text" id="campoEmail">
+      </section>
 
-<div class="contraseña">
-<input type="password" required>
-<label> Contraseña </label>
-</div> 
+      <section class="contraseña">
+        <label for="contra">Contraseña:</label>
+        <input type="password" id="contra">
+      </section>
 
-<div>    <input type="submit" value="Ingresar"> 
-     <a href="./index.html">
-
-     </div>
-
-
-<div class="recordar"> 
-    <a href="recover.html">   Olvido su contraseña? </a>
- </div>
-
-    <div class="Registrarse">
-         <a href="register.html">No tengo cuenta!  </a>
-
-    </div>
-</form>
-
-
-
-</div>
+      <button type="submit" class="submit">Ingresar</button>
+      <article class="recordar"> 
+        <a href="recover.html">¿Olvidó su contraseña?</a>
+      </article>
+      <article class="Registrarse">
+        <a href="register.html">No tengo cuenta</a>
+      </article>
+    </form>
+  </section>
+</main>
 
 <footer>
   <p>Felix Milia</p>
@@ -50,4 +57,6 @@
   <p>Emilio Perasso</p>
 </footer>
 
+<script src ="js/login.js" ></script>
 </body>
+</html>

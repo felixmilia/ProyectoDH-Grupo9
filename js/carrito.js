@@ -3,6 +3,7 @@ let listaid=[]
           listaid=JSON.parse(localStorage.getItem("productos"))
           console.log(listaid)
         let boton=document.querySelector("#Vaciar")
+
 boton.addEventListener("click",function(){
     localStorage.removeItem("productos")
     alert("gracias por su compra")
@@ -16,7 +17,7 @@ boton.addEventListener("click",function(){
                 console.log(data)
                 seccion.innerHTML+=`<article class="ropa_hombre">
                 <p>${data.title}</p>
-                <p>Precio: ${data.price} </p>
+                <p>Precio: $${data.price} </p>
                 <img src="${data.image}" alt="remeras1">
                 <p>${data.category}</p>
               </article>`

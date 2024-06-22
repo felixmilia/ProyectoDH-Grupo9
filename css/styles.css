@@ -163,37 +163,41 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
-.formulario{
-
-  position:absolute;
-  top: 35%;
-  left:35%;
-  transform: (-35%, -35%);
-  width: 500px;
-  background-color:#fff;
+.formulario{    
+  display: flex;
+  width: 30%;
+  background-color: #fff;
   padding: 40px;
   margin: auto;
-  border:4px solid#333}
-.formulario h1 {
+  border: 4px solid black;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+  .formulario h1 {
 text-align: center;
 }
 
 .formulario form{
-
-padding: 20px
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 form .username {
-  position:relative;
-  margin:10px 0;
-  border:1px solid#333
-  padding 10px;
+  display: flex;
+    margin: 5px;
+    position: relative;
+    flex-direction: row-reverse;
 }
 
 .contraseña{
-  margin:10px 0;
-  padding: 10px ;
-  position:relative;
+  display: flex;
+    margin: 5px;
+    position: relative;
+    flex-direction: row-reverse;
 }
 
 input[type="submit"]{
