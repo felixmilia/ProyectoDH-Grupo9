@@ -301,4 +301,9 @@ background-color: blue;
   border: 4px solid black;
 }
 
-
+.saludo1 {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
