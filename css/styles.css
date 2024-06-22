@@ -307,3 +307,15 @@ background-color: blue;
     align-items: center;
     flex-direction: column;
 }
+
+.login {
+  display: flex;
+}
+
+.regitster {
+  display: flex;
+}
+
+.logout {
+  display: flex;
+}

@@ -1,3 +1,3 @@
-logout.addEventListener('click', function(){
-    localStorage.clear
+logout.addEventListener('click', function() {
+    localStorage.clear(); 
 })
