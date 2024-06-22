@@ -180,10 +180,11 @@ text-align: center;
 }
 
 .formulario form{
-  padding: 20px;
+  padding: 5%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 form .username {
