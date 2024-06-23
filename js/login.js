@@ -22,6 +22,3 @@ form.addEventListener('submit', function(event){
         localStorage.setItem("mail", campoEmail.value)
     }
 })
-
-
-

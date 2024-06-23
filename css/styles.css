@@ -317,5 +317,9 @@ background-color: blue;
 }
 
 .logout {
-  display: flex;
+  display: none;
+}
+
+.bienvenidaMail {
+  display: none;
 }
