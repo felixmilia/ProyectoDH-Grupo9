@@ -2,12 +2,11 @@ let listaid=[]
         if(localStorage.getItem("productos")&&localStorage.getItem("productos")!=null){
           listaid=JSON.parse(localStorage.getItem("productos"))
           console.log(listaid)
-        let boton=document.querySelector("#Vaciar")
+        let botonCarrito=document.querySelector("#Vaciar")
 
-boton.addEventListener("click",function(){
+botonCarrito.addEventListener("click",function(){
     localStorage.removeItem("productos")
     alert("gracias por su compra")
-    window.location.href="./index.html"
 })
         let seccion =document.querySelector(".seccion_productos")
         for(let i=0;i<listaid.length;i++){
