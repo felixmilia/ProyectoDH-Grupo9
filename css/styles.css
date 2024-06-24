@@ -291,9 +291,6 @@ background-color: blue;
 .mainRegister {
   display: flex;
   justify-content: space-around;
-  padding: 50px;
-  border: 3px solid black;
-  margin: 20px;
   width: 500px;
   background-color: white;
   padding: 40px;
@@ -321,5 +318,13 @@ background-color: blue;
 }
 
 .bienvenidaMail {
+  display: none;
+}
+
+.recuperar {
+  display: none;
+}
+
+.textoR {
   display: none;
 }

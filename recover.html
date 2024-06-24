@@ -7,55 +7,61 @@
   <title> Registro - Andres </title>
   <link rel="stylesheet" href="./css/styles.css">
 </head>
-
 <body>
-    <header> 
-      
-        <img class="AndresJeans" src="./img/Andres Jeans/LOGO.png" alt="Logo" > 
-      
-    
-      
-        <nav>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="category.html?id=electronics">ELECTRONICA</a></li>
-            <li><a href="category.html?id=jewelery">ACCESORIOS</a></li>
-            <li><a href="category.html?id=men's clothing">HOMBRE</a></li>
-            <li><a href="category.html?id=women's clothing">MUJER</a></li>
-            <li><a href="carrito.html">CARRITO</a></li>
-            <li><a href="login.html">LOGIN</a></li>
-            <li><a href="register.html">REGISTRO</a></li>
-          </ul>
-        </nav>
-     
-    </header>
+  <header>
+    <img class="AndresJeans" src="./img/Andres Jeans/LOGO.png" alt="Logo" > 
+  
 
+  
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="category.html?id=electronics">ELECTRONICA</a></li>
+        <li><a href="category.html?id=jewelery">ACCESORIOS</a></li>
+        <li><a href="category.html?id=men's clothing">HOMBRE</a></li>
+        <li><a href="category.html?id=women's clothing">MUJER</a></li>
+        <li><a href="carrito.html">CARRITO</a></li>
+        <li><a href="login.html">LOGIN</a></li>
+        <li><a href="register.html">REGISTRO</a></li>
+      </ul>
+    </nav>
+</header>
 <main>
-  <section class="formulario">
-    <h1>Recuperar Contraseña</h1>
-    <form id="form">
+<section class="mainRegister">
+    <div class="form">
+      <h2 class="cuenta"> Recuperar Contraseña </h2>
+<form > 
+  <article>
+    <label> Email: </label>
+    <input type="text" name="mail" value="" placeholder="Correo Electronico">
+  </article>
+    
 
-      <section class="contraseña">
-        <label for="contra">Nueva contraseña</label>
-        <input type="password" id="contra">
-      </section>
-
-      <button type="submit" class="submit">Ingresar</button>
-      <article class="Registrarse">
-        <a href="register.html">No tengo cuenta</a>
+    <article>
+      <label> Quiero recuperar mi contraseña </label>
+      <input type="checkbox" name="Tyc" value="Tyc">
       </article>
-    </form>
-  </section>
-</body>
+    <article>
+    <button type="submit"> Recuperar </button>
+    </article>
 
-<footer> 
- <p>Felix Milia</p>
- <p>Bautista Cornejo</p>
- <p>Emilio Perasso</p>
-</footer>
+    <article class="recuperar">
+      <a href="login.html">Ir al Login</a>
+    </article>
+    
+    <article class="textoR">Recibirás un email con las instrucciones para recuperar tu contraseña</article>
+   
+</form>
+<article id="errores">
+
+</section>
+
 </main>
-
-
+<footer>
+  <p>Felix Milia</p>
+  <p>Bautista Cornejo</p>
+  <p>Emilio Perasso</p>
+</footer>
+<script src="./js/recover.js"></script>
+</body>
 </html>
-
- 
