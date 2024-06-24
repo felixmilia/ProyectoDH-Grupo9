@@ -14,4 +14,3 @@ if (bienvenidaMail != null) {
     login.style.display = "none"
     logout.style.display = "flex"
 }
-
