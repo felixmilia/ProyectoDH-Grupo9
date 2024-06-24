@@ -290,3 +290,56 @@ margin: 1%;
 .textoR {
   display: none;
 }
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .AndresJeans {
+    width: 60px;
+    height: 60px;
+  }
+
+  .ropa_hombre {
+    width: 45%;
+  }
+
+  .formulario {
+    width: 80%;
+  }
+
+  .mainRegister {
+    width: 90%;
+  }
+
+  .detallImg {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .ropa_hombre {
+    width: 90%;
+  }
+
+  header {
+    padding: 15px;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  .formulario {
+    width: 90%;
+  }
+
+  .mainRegister {
+    width: 100%;
+  }
+}
