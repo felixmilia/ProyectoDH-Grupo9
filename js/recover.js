@@ -20,7 +20,7 @@ if(Tyc==false){
 }
 
 for(let i=0; i<listaErrores.length; i++){
-    errores.innerHTML +=`<p> ${listaErrores[i]} </p>`
+    errores.innerHTML +=`<h4> ${listaErrores[i]} </h4>`
 }
 if(listaErrores.length==0){
     recuperar.style.display = "flex"

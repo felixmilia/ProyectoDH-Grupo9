@@ -1,14 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     background-color: whitesmoke;
   }
   
 
   header {
-    background-color: #000000;
-    color: #fff;
+    background-color: black;
+    color: white;
     padding: 25px;
     display: flex;
     flex-direction: column;
@@ -21,11 +21,6 @@ body {
     flex: content;
     align-items: center;
     justify-content: space-evenly;
-  }
-
-  .logo {
-    font-size: 40px;
-    font-weight: bold;
   }
   
   nav{
@@ -114,11 +109,6 @@ footer {
     flex-wrap: wrap;
 }
 
-
-@media only screen and (max-width: 720px) {
-
-}
-
   .ropa_hombre {
     border: 2px solid black;
     margin: 1%;
@@ -156,13 +146,7 @@ footer {
   justify-content: space-evenly;
 }
 
-.headercarrito {
-  background-color: #333;
-  padding: 10px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 .formulario{    
   display: flex;
   width: 30%;
@@ -173,10 +157,6 @@ footer {
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-}
-
-  .formulario h1 {
-text-align: center;
 }
 
 .formulario form{
@@ -199,14 +179,6 @@ form .username {
     margin: 5px;
     position: relative;
     flex-direction: row-reverse;
-}
-
-input[type="submit"]{
-background-color: green;
-width: 100px;
-height: 25px;
-color: white;
-
 }
 
 .formularioregis {
@@ -232,41 +204,31 @@ margin-bottom: 5px;
 }
 
 
-.formularioregis .boton{
+.boton{
 width: 100px;
-background-color: green;
-padding: 10px;
-margin:none;
-height:30px;
-
+background-color: greenyellow;
+justify-content: center;
+font-size: x-small;
+margin: 1%;
 }
+
 .contra{
   position:absolute;
   top: 35%;
   left:35%;
-  transform: translate*(-35%, -35%);
   width: 400px;
-  background-color:#fff;
+  background-color: white;
   padding: 20px;
   margin: auto;
-  border:4px solid#333
+  border:4px solid black
 }
 
 
 .email{
   padding: 10px;
   width: 10px ;
-
 }
 
-.recu{
-background-color: blue;
-
-}
-
-.atrascarrito {
-  width: 10000px;
-}
 
 .detalle {
   width: 100%;
