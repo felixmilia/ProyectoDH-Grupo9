@@ -11,7 +11,7 @@ fetch('https://fakestoreapi.com/products/category/men\'s clothing')
         for (let i=0; i<data.length; i++){
             let prod = data[i];
             producto[0].innerHTML +=`
-            <article class="ropa_hombre">
+            <article class="ropaHombre">
                 <p>${prod.title}</p>
                 <p>$${prod.price}</p>
                 <img src=${prod.image}>
@@ -34,7 +34,7 @@ fetch('https://fakestoreapi.com/products/category/men\'s clothing')
         for (let i=0; i<data.length; i++){
             let prod = data[i];
             producto[1].innerHTML +=`
-            <article class="ropa_hombre">
+            <article class="ropaHombre">
                 <p>${prod.title}</p>
                 <p>$${prod.price}</p>
                 <img src=${prod.image}>
@@ -57,7 +57,7 @@ fetch('https://fakestoreapi.com/products/category/men\'s clothing')
         for (let i=0; i<data.length; i++){
             let prod = data[i];
             producto[2].innerHTML +=`
-            <article class="ropa_hombre">
+            <article class="ropaHombre">
                 <p>${prod.title}</p>
                 <p>$${prod.price}</p>
                 <img src=${prod.image}>

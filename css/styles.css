@@ -109,7 +109,7 @@ footer {
     flex-wrap: wrap;
 }
 
-  .ropa_hombre {
+  .ropaHombre {
     border: 2px solid black;
     margin: 1%;
     padding: 1%;
@@ -118,11 +118,11 @@ footer {
     justify-content: space-around;
 }
 
-.ropa_hombre img {
+.ropaHombre img {
   width: 100%;
 }
 
-.seccion_productos1 {
+.seccionProductos1 {
   border: 3px solid black;
   display: flex;
   flex-wrap: wrap;
@@ -130,7 +130,7 @@ footer {
   justify-content: space-evenly;
 }
 
-.seccion_productos2 {
+.seccionProductos2 {
   border: 3px solid black;
   display: flex;
   flex-wrap: wrap;
@@ -138,7 +138,7 @@ footer {
   justify-content: space-evenly;
 }
 
-.seccion_productos3 {
+.seccionProductos3 {
   border: 3px solid black;
   display: flex;
   flex-wrap: wrap;
@@ -301,9 +301,6 @@ margin: 1%;
     height: 60px;
   }
 
-  .ropa_hombre {
-    width: 45%;
-  }
 
   .formulario {
     width: 80%;
@@ -319,7 +316,7 @@ margin: 1%;
 }
 
 @media (max-width: 480px) {
-  .ropa_hombre {
+  .ropaHombre {
     width: 90%;
   }
 

@@ -8,13 +8,13 @@ botonCarrito.addEventListener("click",function(){
     localStorage.removeItem("productos")
     alert("gracias por su compra")
 })
-        let seccion =document.querySelector(".seccion_productos")
+        let seccion =document.querySelector(".seccionProductos")
         for(let i=0;i<listaid.length;i++){
             fetch(`https://fakestoreapi.com/products/${listaid[i]}`)
             .then(res=>res.json())
             .then(data=>{
                 console.log(data)
-                seccion.innerHTML+=`<article class="ropa_hombre">
+                seccion.innerHTML+=`<article class="ropaHombre">
                 <p>${data.title}</p>
                 <p>Precio: $${data.price} </p>
                 <img src="${data.image}" alt="remeras1">
