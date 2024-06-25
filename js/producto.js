@@ -30,8 +30,8 @@ fetch(`https://fakestoreapi.com/products/${id}`)
         })
             })
 
-            .catch(function (err){
-                console.log(err);
-                })
+.catch(function (err){
+console.log(err);
+})
           
                 

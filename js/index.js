@@ -18,7 +18,7 @@ fetch('https://fakestoreapi.com/products/category/men\'s clothing')
                 <p>${prod.description}</p>
                 <p>Rating: ${prod.rating.rate}/5</p>
                   <ul>
-                    <li><a href="detalle.html?id=${prod.id}"><button>Ver mas</button></a></li>
+                    <li><a href="producto.html?id=${prod.id}"><button>Ver mas</button></a></li>
                   </ul>
               </article>`
 }

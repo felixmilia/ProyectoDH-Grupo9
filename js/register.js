@@ -15,13 +15,13 @@ formulario.addEventListener ("submit",function(e){
 listaErrores.push("Por favor complete el campo email.")
     }
     if(pass.length==0){
-        listaErrores.push("Por favor complete el campo contrasena.")
+        listaErrores.push("Por favor complete el campo contraseña.")
   }
 if(pass.length<6) {
-listaErrores.push("Debe ingresar al menos 6 caracteres en la contrasena")
+listaErrores.push("Debe ingresar al menos 6 caracteres en la contraseña")
 }
 if(pass!=pass2){
-    listaErrores.push("Las contrasenas no coinciden")
+    listaErrores.push("Las contraseñas no coinciden")
 }
 if(Tyc==false){
     listaErrores.push("Debe aceptar los terminos y condiciones")
